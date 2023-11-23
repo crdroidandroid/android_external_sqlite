@@ -156,6 +156,8 @@ cc_library {
         },
     },
     export_include_dirs: ["."],
+
+    afdo: true,
 }
 
 // This static library is variant of libsqlite built without the ICU extension.
